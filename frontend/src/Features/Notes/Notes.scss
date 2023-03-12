@@ -1,0 +1,159 @@
+$primary-coloro: #c27463;
+$primary-colorp:#6C557D;
+$primary-colorlp:#E4D4F0;
+$primary-colory:#E7B975;
+$primary-color6: #141831;
+
+$primary-color1: #FFC9B5;
+$primary-color2: #F7b1ab;
+$primary-color3: #d8aa96;
+$primary-color4: #807182;
+$primary-color5: #c7d3bf;
+$primary-color6: #141831;
+$primary-colorbg: #fdfefce1;
+
+
+
+.Notes-body{
+	background-color: $primary-colorbg;
+	// padding: 50px;
+}
+	
+
+// code {
+// 	font-family: source-code-pro, Menlo, Monaco, Consolas,
+// 		'Courier New', monospace;
+// }
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	// color: #000000;
+	padding-top: 2rem;
+	letter-spacing: 0;
+    line-height: normal;
+    text-shadow: 0px 4px 4px #00000040;
+    text-align: center;
+    margin: 0px;
+    font-size: 50px;
+    color: $primary-color4;
+    padding-top: 6rem;
+    padding-bottom: 0;
+}
+
+.dark-mode {
+	background-color: black;
+}
+
+.dark-mode h1 {
+	color: $primary-color5
+	
+	
+}
+
+.container {
+	max-width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	min-height: 100vh;
+	
+}
+
+.notes-list {
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: repeat(
+		auto-fill,
+		minmax(200px, 1fr)
+	);
+}
+
+.note.new {
+	background-color: $primary-color5;
+	box-shadow: 5px 0px 5px 0px rgba(55, 55, 55, 0.313);
+	color: $primary-color6;
+}
+
+textarea {
+	border: none;
+	resize: none;
+	background-color:$primary-color5;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+.save {
+	// background-color: $primary-color6;
+	// border: none;
+	// border-radius: 15px;
+	// padding: 5px 10px 5px 10px;
+	// color: $primary-colorlp;
+	background-color: $primary-color4;
+    color: $primary-color5;
+    border-color: black;
+    border-radius: 10px;
+    border: 1px solid;
+    box-shadow: 0px 4px 4px #00000040;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+	margin-bottom: 1rem;
+}
+
+.save:hover {
+	// background-color: $primary-colorp;
+	// cursor: pointer;
+	// color: $primary-colorlp;
+	background-color: $primary-color6;
+    color: white;
+}
+
+.note {
+	background-color: $primary-color4;
+	border-radius: 10px;
+	padding: 1rem;
+	min-height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	white-space: pre-wrap;
+	box-shadow: 5px 0px 5px 0px rgba(55, 55, 55, 0.313);
+	color: $primary-color5;
+	border-left: none;
+	
+}
+
+.note-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.delete-icon {
+	cursor: pointer;
+}
+
+.search {
+	display: flex;
+	align-items: center;
+	background-color: rgb(226, 226, 226);
+	border-radius: 10px;
+	padding: 5px;
+	margin-bottom: 1.5em;
+}
+
+.search input {
+	border: none;
+	background-color: rgb(224, 224, 224);
+	width: 100%;
+}
+
+.search input:focus {
+	outline: none;
+}

@@ -1,0 +1,58 @@
+// $primary-coloro: #c27463;
+// $primary-colorp:#6C557D;
+// $primary-colorlp:#E4D4F0;
+// $primary-colory:#E7B975;
+// $primary-colord:#141831;
+
+$primary-color1: #FFC9B5;
+$primary-color2: #F7b1ab;
+$primary-color3: #d8aa96;
+$primary-color4: #807182;
+$primary-color5: #c7d3bf;
+$primary-color6: #141831;
+
+
+.relaxBody {
+    text-align: center;
+    padding: 5rem;
+    // margin-bottom: 3rem;
+    background-color: $primary-color5;
+    padding-top: 19.5rem;
+}
+.class-relax {
+    color: $primary-color6;
+    padding: 1.2rem;
+    padding-bottom: 9rem;
+}
+img {
+   height: 10rem;
+    width: 15%;
+    text-align: center;
+}
+.timer {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.btn-start{
+    background-color: $primary-color4;
+    color: $primary-color5;
+    // color: rgb(255, 255, 255);
+    border-color: black;
+    border-radius: 10px;
+    border: 1px solid;
+    box-shadow: 0px 4px 4px #00000040;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.btn-start{
+    padding-top: 20px;
+}
+
+.btn-start:hover{
+    background-color: $primary-color6;
+    color: white;
+}

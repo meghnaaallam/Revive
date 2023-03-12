@@ -1,0 +1,83 @@
+$primary-coloro: #c27463;
+$primary-colorp:#6C557D;
+$primary-colorlp:#E4D4F0;
+$primary-colory:#E7B975;
+
+$primary-color1: #FFC9B5;
+$primary-color2: #F7b1ab;
+$primary-color3: #d8aa96;
+$primary-color4: #807182;
+$primary-color5: #c7d3bf;
+$primary-color6: #141831;
+
+
+
+
+.navbar{
+    position:absolute;
+    box-shadow: none;
+    list-style-type: none;
+    padding-left: 5rem;
+}
+
+
+
+.nav-link{
+    // background-color: $primary-color4;
+    // color: ;
+    // border-color: black;
+    // border-radius: 15px;
+    // border: 1px solid;
+    // box-shadow: 0px 4px 4px #00000040;
+
+
+
+    background-color: $primary-color4;
+    color: $primary-color5;
+    border-color: black;
+    border-radius: 10px;
+    border: 1px solid;
+    box-shadow: 0px 4px 4px #00000040;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+	margin-bottom: 1rem;
+}
+
+.nav-link:hover{
+    background-color: $primary-color6;
+    color: white;
+}
+
+
+.nav-SupIn{
+    padding-right:10px 
+}
+
+.Signin-Signup{
+    display: flex;
+    padding-left: 1080px;
+}
+
+
+.Wrapper{
+    animation: animate 5s ease infinite;
+}
+@keyframes animate{
+    0%{
+        background-color: $primary-color4;
+    }
+    40%{
+        background-color: $primary-color6;
+    }
+    // 60%{
+    //     background-color: $primary-color3;
+    // }
+    60%{
+        background-color: $primary-color6;
+    }
+    100%{
+        background-color: $primary-color4;
+    }
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Overpass:wght@300&family=Ubuntu:ital,wght@0,300;0,500;1,300&display=swap');
+$primary-coloro: #c27463;
+$primary-colorp:#6C557D;
+$primary-colorlp:#E4D4F0;
+$primary-colory:#E7B975;
+
+
+
+$primary-color1: #FFC9B5;
+$primary-color2: #F7b1ab;
+$primary-color3: #d8aa96;
+$primary-color4: #807182;
+$primary-color5: #c7d3bf;
+$primary-color6: #141831;
+
+
+
+
+.title{
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 157px;
+    text-shadow: 0px 4px 4px #00000040;
+    width: 600px;
+    text-align: center;
+    padding: 200px;
+    padding-top: 20%;
+    padding-left: 585px;
+    margin: 0px;
+    font-size: 100px;
+     top: 50%;
+    left: 50%;
+    color: $primary-color5;
+    background:
+    linear-gradient(rgb(238, 231, 231) 40%, rgb(255, 250, 250) 0) 0 var(--_d, 40) /10% 20% no-repeat,
+    linear-gradient(rgba(0, 0, 0, 0) 10%, rgb(234, 218, 255) 0) 0 var(--_d, 0) /95% 20% no-repeat;
+    -webkit-background-clip: text,padding-box;
+    background-clip: text,padding-box;
+    transition: 0.8s
+    
+}
+
+    
+
+.main-body{
+    height: 100vh;
+    animation: animate 5s ease infinite;
+}
+
+@keyframes animate{
+    0%{
+        background-color: $primary-color4;
+    }
+    40%{
+        background-color: $primary-color6;
+    }
+    // 60%{
+    //     background-color: $primary-color3;
+    // }
+    60%{
+        background-color: $primary-color6;
+    }
+    100%{
+        background-color: $primary-color4;
+    }
+}
+
+// @keyframes ani{
+//     0%{
+//         top: 0px;
+//     }
+// }

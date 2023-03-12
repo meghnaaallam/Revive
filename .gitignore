@@ -1,0 +1,24 @@
+# core auxiliary files
+*.aux
+
+#log files
+*.log
+
+#basic css files
+*.css
+
+#python files
+*.py
+
+#node modules & node files
+*.node
+node_modules
+
+#package files
+.json
+
+#dist files
+dist
+
+#text files
+.txt
